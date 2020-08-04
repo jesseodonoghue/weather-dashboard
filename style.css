@@ -1,0 +1,59 @@
+/* Current temps styling */
+
+#today {
+    border: solid;
+    border-color: lightgray;
+    border-width: thin;
+    border-radius: 5px;
+    padding: 1.5em;
+}
+
+
+/* Forecast temps styling */
+
+#card-row {
+    display: flex;
+}
+
+
+
+/* Card Styling */
+
+.card-body {
+    max-width: 200px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    margin: .4em;
+}
+
+
+/* UV Index Button Styling */
+
+.uvFav {
+    background-color: green;
+    color: white;
+}
+
+.uvFav:hover {
+    background-color: green;
+    color: white;
+}
+
+.uvMod {
+    background-color: yellow;
+}
+
+.uvMod:hover {
+    background-color: yellow;
+}
+
+.uvSev {
+    background-color: red;
+    color: white;
+}
+
+.uvSev:hover {
+    background-color: red;
+    color: white;
+}
