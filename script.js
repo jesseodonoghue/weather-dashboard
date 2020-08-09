@@ -24,7 +24,7 @@ $(document).ready(function() {
 
     $.ajax({
       type: "GET",
-      url: "http://api.openweathermap.org/data/2.5/weather?q=" + searchValue + "&appid=0579ebb6b59bb608310fc74b99dac000&units=imperial",
+      url: "https://api.openweathermap.org/data/2.5/weather?q=" + searchValue + "&appid=0579ebb6b59bb608310fc74b99dac000&units=imperial",
       dataType: "json",
       success: function(data) {
         // create history link for this search
@@ -70,7 +70,7 @@ $(document).ready(function() {
 
     $.ajax({
       type: "GET",
-      url: "http://api.openweathermap.org/data/2.5/forecast?q=" + searchValue + "&appid=0579ebb6b59bb608310fc74b99dac000&units=imperial",
+      url: "https://api.openweathermap.org/data/2.5/forecast?q=" + searchValue + "&appid=0579ebb6b59bb608310fc74b99dac000&units=imperial",
       dataType: "json",
       success: function(data) {
         // overwrite any existing content with title and empty row
